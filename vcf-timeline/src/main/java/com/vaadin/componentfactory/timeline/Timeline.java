@@ -53,6 +53,7 @@ import java.util.stream.Collectors;
 @NpmPackage(value = "moment", version = "2.29.1")
 @JsModule("./src/arrow.js")
 @JsModule("./src/vcf-timeline.js")
+@JsModule("./src/visjs-timeline-wrapper.js")
 @CssImport("vis-timeline/styles/vis-timeline-graph2d.min.css")
 @CssImport("./styles/timeline.css")
 public class Timeline extends Div {
