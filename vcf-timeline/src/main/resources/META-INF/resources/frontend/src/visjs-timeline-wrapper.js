@@ -17,3 +17,13 @@ class TimelineWrapper {
     addEventListener(eventType, callback) {
       this.timeline.on(eventType, callback);
     }
+  
+    selectItem(itemId) {
+      this.timeline.setSelection(itemId);
+    }
+  
+    setZoomOption(zoomOption) {
+      this.timeline.setOptions({ zoomKey: zoomOption });
+    }
+  }
+  
